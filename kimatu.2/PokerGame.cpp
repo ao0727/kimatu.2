@@ -1,12 +1,12 @@
 #include "PokerGame.h"
 #include <iostream>
 #include <sstream>
-
+#include "evaluation.h"
 using namespace std;
 
 PokerGame::PokerGame() {
     dealCards();
-    //showHand();
+    showHand();
     replaceCards();
     showHand();
     evaluateHand();
@@ -64,6 +64,10 @@ void PokerGame::replaceCards() {
     }
 }
 
-void PokerGame::evaluateHand() {
+/*void PokerGame::evaluateHand() {
     cout << "" << endl;
-}
+
+
+}*/
+
+

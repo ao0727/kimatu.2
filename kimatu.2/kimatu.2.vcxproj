@@ -132,6 +132,7 @@
     <ClCompile Include="Shoe.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="evaluation.h" />
     <ClInclude Include="PokerGame.h" />
     <ClInclude Include="Shoe.h" />
   </ItemGroup>

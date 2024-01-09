@@ -44,9 +44,9 @@ int Shoe::takeCard() {
         _shuffle();
     }
     _cardNum--;
-
+    
     int cardNumber = (_cardNumbers[_cardNum] - 1) % 13 + 1; // ƒJ[ƒh”Ô†‚ğ1‚©‚ç13‚É•ÏŠ·
-    cout << _cardMarks[_cardNum];
+    /*cout << _cardMarks[_cardNum];
     if (cardNumber == 1) {
         cout << "A ";
     }
@@ -61,8 +61,8 @@ int Shoe::takeCard() {
     }
     else {
         cout << cardNumber << " ";
-    }
-
+    }*/
+    
     return _cardNumbers[_cardNum];
 }
 
